@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="start|center_vertical"
-        tools:text="GOOG"
+        tools:text="@string/GOOG"
         android:textColor="#fff"
         android:contentDescription="@string/textSymbol"/>
     <LinearLayout
@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             android:paddingRight="10sp"
             android:paddingEnd="10sp"
-            tools:text="1000.00"
+            tools:text="@string/one_thousand"
             android:textColor="#fff"
             android:contentDescription="@string/textBid"
             />
@@ -40,7 +40,7 @@
             android:layout_height="wrap_content"
             android:paddingStart="3dp"
             android:paddingEnd="3dp"
-            tools:text="100%"
+            tools:text="@string/hundred_percent"
             android:textColor="#fff"
             android:contentDescription="@string/textPercent"
             />
