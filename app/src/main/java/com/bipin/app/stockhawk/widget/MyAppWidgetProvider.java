@@ -18,7 +18,8 @@ import com.bipin.app.stockhawk.ui.MyStocksActivity;
 
 public class MyAppWidgetProvider extends AppWidgetProvider
 {
-    @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
+    //@TargetApi(Build.VERSION_CODES.KITKAT)
+   @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
     @Override
     public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds)
     {
